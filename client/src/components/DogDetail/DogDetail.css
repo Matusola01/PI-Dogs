@@ -1,0 +1,46 @@
+.imgDog{
+    float: left;
+}
+.containerD{
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 38rem;
+    padding-top: 0px;
+}
+.dog{
+    margin: 15px;
+    height: 30rem;
+    width: 40rem;
+    background-size: 100% 100%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.data{
+    padding-bottom: 30px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    float: right;
+    width: 45%;
+    margin: 20px;
+    margin-top: 11%;
+    text-align: center;
+    background-color: rgb(212, 118, 41);
+}
+
+.btnHome{
+    font-size: 1.5rem;
+    background-color:rgb(255, 255, 255);
+    border: 1px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    justify-items: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px; 
+}

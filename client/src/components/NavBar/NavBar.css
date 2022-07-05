@@ -1,0 +1,15 @@
+.navStyle{
+    padding: 10px;
+    background-color:rgb(212, 118, 41);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.toLanding {
+    font-size:1.1rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px;
+    border-radius: 10px;
+    margin: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}

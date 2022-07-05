@@ -1,0 +1,63 @@
+
+ .backgroundImage  {
+	background-image: url("../../img/perrosImage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;    
+    position: relative;
+} 
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: -100; */
+}
+
+
+.buttonHome {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    background-color: #ebe9e9;
+    background-color: rgb(212, 118, 41);;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    top:10%;
+    left: 44%;
+    position:absolute;
+  }
+  
+  .buttonHome span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonHome span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonHome:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonHome:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
