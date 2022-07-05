@@ -10,12 +10,10 @@ export class SearchBar extends Component {
       this.state = {
         name: ""
       };
-      // this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     handleChange(e) {
       this.setState({ name: e.target.value });
-      // this.props.setPage(1);
     }
 
     handleSubmit(e) {
@@ -56,7 +54,6 @@ export class SearchBar extends Component {
   function mapDispatchToProps(dispatch) {
     return {
         getDogByName: name => dispatch(getDogByName(name)),
-        // setPage: value => dispatch(setPage(value))
     };
   }
   

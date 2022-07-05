@@ -10,7 +10,6 @@ import imageLoader from '../../img/loader.gif'
 export default function Pagination() {
 
     const dispatch = useDispatch();
-    // const [, /*refreshState*/ setRefreshState] = useState(false);
     const dogs = useSelector(state => state.dogs)
     let alldogs = [...dogs]
     const numPages = Math.ceil(dogs.length/8)
@@ -18,7 +17,7 @@ export default function Pagination() {
     const copyAlldogs = useSelector(state => state.AllDogs)
     const [currentPage,setCurrentPage] = useState(p)
 
-    //Se ejecuta cada vez que se renderiza el componente ---> componentDidMount y componentDidUpdate
+    
     useEffect(()=>{
         dispatch(getAllDogs())
     },[dispatch])
