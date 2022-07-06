@@ -2,24 +2,6 @@ const { Router } = require ('express')
 const router = Router()
 const {Dog, Temperament} = require ('../db')
 
-// router.post('/', async (req, res, next)=>{
-//     const {name, minWeight, maxWeight, minHeight, maxHeight, image, minage, maxage, temperament} = req.body
-//     // if(temperament.length === 0){
-//     //     return res.sendStatus(500)}
-// try {
-//     const newBreed = await Dog.create({
-//         image: image,
-//         name: name,
-//         height: `${minHeight} - ${maxHeight}` ,
-//         weight: `${minWeight} - ${maxWeight}`,
-//         age: `${minage} - ${maxage}`,
-//     })
-//     await newBreed.addTemperament(temperament);
-//     res.json(newBreed)
-// } catch (err) {
-//         next(err)
-//     }
-// })
 
 router.post('/', async (req, res, next) =>{
 
