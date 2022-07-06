@@ -33,7 +33,7 @@ export class SearchBar extends Component {
                 type="text"
                 id="name"
                 autoComplete="off"
-                placeholder="Enter your breed name..."
+                placeholder="Enter your dog name..."
                 value={name}
                 onChange={(e) => this.handleChange(e)}
               />
@@ -47,7 +47,7 @@ export class SearchBar extends Component {
   
   function mapStateToProps(state) {
     return {
-      Dogs: state.Dogs
+      dogs: state.dogs
     };
   }
   

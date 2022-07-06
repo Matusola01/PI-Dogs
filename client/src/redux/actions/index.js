@@ -123,10 +123,10 @@ export function getDogsDB(){
     }
 };
 
-export function filterByTemp(temperaments){
+export function filterByTemp(temperament){
     return {
         type: FILTER_BY_TEMP,
-        payload: temperaments,
+        payload: temperament,
     }
 };
 

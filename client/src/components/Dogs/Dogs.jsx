@@ -11,7 +11,7 @@ import { orderAZ , orderZA , orderByWeight , getDogsDB , getDogsApi , getAllDogs
 export default function DogCards() {
 
     const dispatch = useDispatch();
-    const [,setRefreshState] = React.useState(false);
+    const [,setRefreshState] = useState(false);
     const [orderWeight, setOrderWeight] = useState('')
 
     useEffect(()=>{

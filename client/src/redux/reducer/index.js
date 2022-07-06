@@ -20,7 +20,7 @@ const initialState = {
     temperaments: [],
     dogDetail: {},
     created: [],
-    apiDogs: [],
+    // apiDogs: [],
     AllDogs: [],
     page: 1
 }
@@ -107,7 +107,7 @@ function rootReducer(state = initialState, action){
         case DOGS_API:
             return{
                 ...state,
-                dogs: action.payload
+                dogs: action.payload,
             };
 
         case FILTER_BY_TEMP:
